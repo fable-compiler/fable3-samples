@@ -1,7 +1,6 @@
 module App
 
 open Fable.Core.JsInterop
-open Fable.Import
 
 let window = Browser.Dom.window
 
