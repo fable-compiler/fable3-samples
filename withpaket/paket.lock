@@ -1,6 +1,7 @@
 STORAGE: NONE
 NUGET
   remote: https://www.nuget.org/api/v2
+  protocolVersion: 2
     Fable.Browser.Blob (1.1) - restriction: >= netstandard2.0
       Fable.Core (>= 3.0) - restriction: >= netstandard2.0
       FSharp.Core (>= 4.6.2) - restriction: >= netstandard2.0

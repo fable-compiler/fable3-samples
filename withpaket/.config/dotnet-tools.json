@@ -3,9 +3,15 @@
   "isRoot": true,
   "tools": {
     "paket": {
-      "version": "5.242.2",
+      "version": "5.247.0",
       "commands": [
         "paket"
+      ]
+    },
+    "fable": {
+      "version": "3.0.2",
+      "commands": [
+        "fable"
       ]
     }
   }
