@@ -10,7 +10,7 @@ This is a simple Fable Node.js app featuring a mocha test suite.
 
 ## Building and running the app
 
-* Install JS dependencies: `npm install`
+* Install JS dependencies (this will also invoke `dotnet tool restore`, check package.json scripts): `npm install`
 * Build Node.js app `npm run build`
 * Try Node.js app `node build/App.js`
 

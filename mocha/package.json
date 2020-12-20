@@ -1,17 +1,14 @@
 {
   "private": true,
+  "type": "module",
   "scripts": {
-    "build": "fable-splitter src -o build --commonjs",
+    "build": "dotnet fable src -o build",
     "testApp": "node build/App.js",
-    "pretest": "fable-splitter tests -o build --commonjs",
+    "pretest": "dotnet fable tests -o build",
     "test": "mocha build -t 10000"
   },
   "dependencies": {
-    "@babel/core": "^7.8.7",
-    "fable-compiler": "^2.4.18",
-    "fable-loader": "^2.1.8",
-    "mocha": "^7.1.0",
-    "fable-splitter": "^2.1.12",
-    "isomorphic-fetch": "^2.2.1"
+    "isomorphic-fetch": "^3.0.0",
+    "mocha": "^8.2.1"
   }
 }

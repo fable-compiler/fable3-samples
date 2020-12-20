@@ -1,4 +1,5 @@
 public/bundle.js*
+*.fs.js
 
 # Node
 node_modules/
@@ -212,3 +213,4 @@ mocha/build/
 mocha/yarn\.lock
 
 interopFableFromJS/yarn\.lock
+
