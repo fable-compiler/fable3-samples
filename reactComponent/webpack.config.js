@@ -8,7 +8,7 @@ const babelConf = {
     }]
 ]}
 module.exports = {
-  entry: './src/react-sample-component.fsproj',
+  entry: './src/index.fs.js',
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'index.js',
@@ -17,26 +17,17 @@ module.exports = {
   mode: "production",
   module: {
     rules: [
-      {
-        test: /\.js$/,
-        include: path.resolve(__dirname, 'split'),
-        exclude: /(node_modules|build)/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            babel: babelConf
-          }
+        {
+            test: /\.js$/,
+            include: path.resolve(__dirname, 'split'),
+            exclude: /(node_modules|build)/,
+            use: {
+                loader: 'babel-loader',
+                options: {
+                    babel: babelConf
+                }
+            }
         }
-      },
-      {
-        test: /\.fs(x|proj)?$/,
-        use: {
-          loader: "fable-loader",
-          options: {
-            babel: babelConf
-          }
-        }
-      }
     ]
   },
   externals: {
