@@ -1,5 +1,5 @@
 public/bundle.js*
-
+*.fs.js
 # Node
 node_modules/
 
