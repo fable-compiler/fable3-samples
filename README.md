@@ -1,6 +1,6 @@
 # fable3-samples
 
-This is the repository hosting samples for quite all your Fable needs. To start a new Fable project you can clone this repo and then copy/paste one of the projects. There aren't so many files inside each project so that should really be easy. Thanks a lot to @delneg for updating the samples to Fable 3!
+This is the repository hosting samples for quite all your Fable needs. To start a new Fable project you can clone this repo and then copy/paste one of the projects. There aren't so many files inside each project so that should really be easy. Thanks a lot to @whitetigle for writing the samples and @delneg for updating them for Fable 3!
 
 So what do we have here?
 
