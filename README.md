@@ -1,8 +1,6 @@
 # fable3-samples
 
-**ATTENTION: Not all samples have been ported to Fable 3 yet**
-
-This is the repository hosting samples for quite all your Fable needs. The best move to start a new Fable project is to clone this repo and then copy/paste one of the projects. There aren't so many files inside each project so that should really be easy.
+This is the repository hosting samples for quite all your Fable needs. To start a new Fable project you can clone this repo and then copy/paste one of the projects. There aren't so many files inside each project so that should really be easy. Thanks a lot to @delneg for updating the samples to Fable 3!
 
 So what do we have here?
 
@@ -12,7 +10,7 @@ So what do we have here?
 
 2. **[nodejs](https://github.com/fable-compiler/fable3-samples/tree/main/nodejs)**, a simple Node.js app with `.fs` files transpiled as independent `.js` files
 
-3. **[nodejsbundle](https://github.com/fable-compiler/fable3-samples/tree/main/nodejsbundle)**, a simple Node.js app bundled into one single `.js` file
+3. **[nodejsbundle](https://github.com/fable-compiler/fable3-samples/tree/main/nodejsbundle)**, a simple Node.js app bundled into one single `.js` file. Note: this sample hasn't been updated to Fable 3 yet.
 
 4. **[promises](https://github.com/fable-compiler/fable3-samples/tree/main/promises)**, do you like dogs? Display a ::dog:: pic everytime you refresh the page. Here we introduce promises and fetch to get random dog pics!
 
