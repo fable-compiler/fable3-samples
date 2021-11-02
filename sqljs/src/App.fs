@@ -39,7 +39,6 @@ module UsersTable =
     let idPos = result.columns.IndexOf "id"
     let namePos = result.columns.IndexOf "name"
     let emailPos = result.columns.IndexOf "email"
-    JS.console.log($"idPos - {idPos}, namePos - {namePos}, emailPos - {emailPos}")
     if result.values.Count = 0 then
       Array.empty
     else
