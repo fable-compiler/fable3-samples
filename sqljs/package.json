@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "main": "src/App.fs.js",
+  "scripts": {
+    "postinstall": "dotnet tool restore",
+    "serve": "dotnet fable watch src --run webpack serve --mode development",
+    "build": "dotnet fable src --run webpack build --mode production && cp sql-wasm.wasm dist/"
+  },
+  "dependencies": {
+    "@jlongster/sql.js": "^1.6.7",
+    "absurd-sql": "^0.0.46",
+    "comlink": "^4.3.1",
+    "sql.js": "^1.6.1"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^9.0.1",
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.50.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
