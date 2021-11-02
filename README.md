@@ -24,4 +24,6 @@ So what do we have here?
 
 4. **[withPaket](https://github.com/fable-compiler/fable3-samples/tree/main/withpaket)**, desperate to add many .NET NuGet packages without conflicts? Let's use paket in your project!
 
+5. **[sqljs](https://github.com/fable-compiler/fable3-samples/tree/main/sqljs)**, adding an SQLite database to your web app for additional performance & smooth SQL API!
+
 > *Don't forget to read our lovely hand written README file located in each folder! Thanks and have fun!*
