@@ -1,4 +1,5 @@
-var path = require('path');
+const path = require('node:path');
+
 const babelConf = {
   presets: [
     ["@babel/preset-env", {
@@ -6,7 +7,9 @@ const babelConf = {
       "corejs": 3,
       "useBuiltIns": "usage"
     }]
-]}
+  ]
+}
+
 module.exports = {
   entry: './src/index.fs.js',
   output: {

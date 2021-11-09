@@ -2,7 +2,7 @@
 // For a more comprehensive configuration check:
 // https://github.com/fable-compiler/webpack-config-template
 
-var path = require("path");
+const path = require("node:path");
 
 module.exports = {
     mode: "development",
