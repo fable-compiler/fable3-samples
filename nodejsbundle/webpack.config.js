@@ -1,4 +1,4 @@
-var path = require("path");
+const path = require("node:path");
 
 var babelOptions = {
   presets: [
