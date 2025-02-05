@@ -22,7 +22,7 @@ let showPic url =
 // This function will fetch a random dog url every reload of the page
 let getRandomDogImage url =
     fetch url [] // use the fetch api to load our resource
-    |> Promise.bind (fun res -> res.text()) // get the resul
+    |> Promise.bind (fun res -> res.text()) // get the result
     |> Promise.map (fun txt -> // bind the result to make further operation
 
       // Use Thoth, a F# library to decode the json message
